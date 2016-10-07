@@ -1,0 +1,43 @@
+body,html{width: 100%;font-size: 14px;font-family: "微软雅黑";}
+.main{width: 99.2%;margin: 0 auto;position: relative;overflow: hidden;background-color: #fefef2;}
+/*******************main logo********************/
+.main .logo{width:100%;height:160px;background-color: #fdf2dd;position: relative; z-index: 100;}
+.main .logo #logo{width:20%;height:75%;margin-top: 2rem;float: left;margin-left: 15%;}
+.main .logo input{width: 30%;height:3rem;float: left;margin-top: 5rem;border-radius: 0.5rem;border: 3px solid #d7b657;}
+.main .logo span{display: block;width:4rem;height: 3rem;background:#d7b657;float: left;border-radius: 0.5rem;text-align: center;font-size:1rem;line-height:3rem;margin-top: 5rem;cursor: pointer;}
+.main .logo .code{width: 12rem;height: 5rem;float: left;margin-top: 3.4rem;margin-left: 3rem;}
+.main .logo .code img{width: 40%;height:100%;float: left;}
+.main .logo .code h4{font-size:1.4rem;font-weight:bold;float: left;margin-top: 0.5rem;color: #d7b657;margin-left: 10px;}
+/*******************main nav********************/
+.main .nav{width: 100%;height: 200px;position: absolute;z-index: 10;top:160px;}
+.main .nav ul{width: 74.6%;height: 100%;margin: 0 auto;position: relative;}
+.main .nav ul li{width: 20%;height: 100%;float:left;margin-top:-7.14rem;border-radius:50%;background-color: #fff4bd;font-size:2rem;font-weight:bold;line-height:270px;text-align: center;color: #ffd974;box-shadow: 0 0 5px #fcb807 inset;cursor: pointer;}
+.main .nav ul li a{color: #ffd974;}
+.main .nav ul:before,.main .nav ul:after{content: "";position: absolute;width: 32%;height:300px;border-radius:50%;background-color: #fff4bd;top:-170px;box-shadow: 0 0 5px #fcb807 inset}
+.main .nav ul:before{left:-30%}
+.main .nav ul:after{right:-30%;}
+.main .nav ul li:hover>a{color: #d7b657;}
+.main .nav ul li:hover{background: #fbeb9c;font-size: 1.9rem;}
+/*******************main banner********************/
+.main .banner{width: 100%;height: 400px;overflow: hidden;position: relative;margin-top: 20px;}
+.main .banner ul{width:298.5%;height: 100%;position: absolute;top: 0;left: -24.62%;}
+.main .banner ul li{width:12.5%;height: 100%;float: left;}
+.main .banner ul li img{width: 100%;height: 100%;border: 1px solid #ccc;}
+.main .banner .changeBanner{width:12.66%;height: 100%;display: block;position: absolute;top:0;background-color:rgba(0,0,0,0.3);line-height: 400px;text-align: center;}
+.main .banner #left{left: 0;}
+.main .banner #right{right: 0;}
+.main .banner .changeBanner strong{color: white;font-weight: bold;font-size: 4rem;cursor: pointer;}
+.main .banner .point:hover{height: 5%;}
+
+/*******************main recommend footer********************/
+.main .footer{width:100%;height: 240px;background: #f9de97;margin-top: 30px;}
+.main .footer .footerTop{width: 80%;margin: 0 auto;height: 160px;padding: 0 10%;border-bottom: 1px dotted #444;padding-bottom: 1rem;margin-bottom: 1rem;}
+.main .footer .footerTop img:first-child{float: left;margin-top: 20px;}
+.main .footer .footerTop ul{width:40%;height:150px;float: left;margin-left: 50px;}
+.main .footer .footerTop ul li{width: 106px;height: 140px;text-align: center;float: left;margin-left: 20px;}
+.main .footer .footerTop ul li span{display: block;margin-top: 5px;text-align:center;width: 100%;float: left;}
+.main .footer .footerTop .footerTopTxt{width: 30%;height: 90%;margin-top: 20px;float: left;margin-left: 20px;}
+.main .footer .footerTop .footerTopTxt span{display: block;font:1.5rem/2rem "微软雅黑";color: #d7b657;}
+.main .footer .footerTop .footerTopTxt span:nth-child(3),.main .footer .footerTop .footerTopTxt span:nth-child(4)
+{font: 20px "微软雅黑";color:black;}
+.main .footer .footerBottom{width: 100%;height:50px;float: left;text-align: center;}

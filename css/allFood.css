@@ -1,0 +1,63 @@
+
+/**************.sort****************/
+
+.sort{width: 1100px;margin:0 auto;background-color: #fefaf1;margin-top: 30px;box-shadow: 0 0 20px #ddd inset;}
+.sort .foodSort{width: 95%;margin: 0 auto;overflow: hidden;}
+.sort .foodSort ul li{float: left;display: block;margin-left: 10px;margin-bottom: 10px;}
+.sort .foodSort .title{width: 100%;height: 160px;text-align: center;}
+.sort .foodSort .title img{display: block;width:250px;height:114px;margin-left: 25%;margin-top: 10px;float: left;}
+.sort .foodSort .title h2{font:bold 40px "微软雅黑";float: left;color:#e6ca79;margin-top: 20px;}
+.sort .foodSort .title h3{font-size:30px;font-weight:bold;float: left;color:#e6ca79;}
+/***************.sort .coldFood*****************/
+.sort .coldFood ul{width: 100%;float: left;}
+.sort .coldFood ul li{float: left;margin-left: 10px;margin-bottom: 10px;position: relative;overflow: hidden;}
+.sort .coldFood ul li img{display:block;width: 100%;height: 100%;position: absolute;top: 0;left: 0;
+transition:0.3s;-moz-transition:0.3s;-ms-transition: 0.3s;-webkit-transition:0.3s;}
+.sort .coldFood ul li:nth-child(1){width: 400px;height: 470px;font-size: 14px;}
+.sort .coldFood ul li:nth-child(2),.sort .coldFood ul li:nth-child(3),.sort .coldFood ul li:nth-child(4),.sort .coldFood ul li:nth-child(5)
+{width: 300px;height: 230px;font-size: 10px;}
+.sort .coldFood ul li:nth-child(6),.sort .coldFood ul li:nth-child(7){width:500px;height: 300px;font-size: 14px;}
+.sort .coldFood ul li span{width: 100%;height: 100%;background-color:#fbf8ef;position: absolute;top: 0;left: 100%;border: 5px solid #d4c087;box-sizing: border-box;padding: 20px;text-align: center;
+transition:0.3s;-moz-transition:0.3s;-ms-transition: 0.3s;-webkit-transition:0.3s;}
+.sort ul li span h2{font: bold 1.5em "微软雅黑";color: #d4c087;}
+.sort ul li span dl{width: 90%;margin: 0 auto;background: white;}
+.sort ul li span dl dt{width:100%;float: left;padding: 10px;}
+.sort ul li span dl dd{width: 49%;float: left;font: 1.2em "微软雅黑";padding: 10px 0;}
+.sort ul li span dl dd strong{color: #555;}
+.sort ul li span dl dd#intro{width: 100%;float: left;text-align: left;}
+.sort ul li span dl dd a{width: 120px;padding: 10px;display: block;background: #d4c087;float: left;margin-top: 10px;color: #000000;}
+.sort .coldFood ul li:hover>img{left: -100%;}
+.sort .coldFood ul li:hover>span{left: 0;}
+/***************.sort .firedDish*****************/
+.sort .firedDish ul{width: 100%;float: left;}
+.sort .firedDish ul li{width: 330px;height: 200px;position: relative;overflow: hidden;}
+.sort .firedDish ul li img{width: 100%;height: 100%;}
+.sort .firedDish ul li:nth-child(7),.sort .firedDish ul li:nth-child(8){width: 500px;height: 300px;position: relative;}
+.sort .firedDish ul li span{width: 100%;height: 100%;position: absolute;top: 0;left: 0;background: red;display: block;background: transparent;
+	transform: rotate(90deg);-moz-transform: rotate(90deg);-ms-transform: rotate(90deg);-webkit-transform: rotate(90deg);
+	transform-origin: left top;-moz-transform-origin: left top;-ms-transform-origin: left top;-webkit-transform-origin: left top;	
+	transition:0.3s;-moz-transition:0.3s;-ms-transition: 0.3s;-webkit-transition:0.3s;
+}
+.sort .firedDish ul li span:nth-child(2){
+	background:#fbf4df;opacity: 0.4;
+	transform: rotate(-90deg);-moz-transform: rotate(-90deg);-ms-transform: rotate(-90deg);-webkit-transform: rotate(-90deg);
+	transform-origin: right top;-moz-transform-origin: right top;-ms-transform-origin: right top;-webkit-transform-origin: right top;	
+	transition:0.3s;-moz-transition:0.3s;-ms-transition: 0.3s;-webkit-transition:0.3s;
+}
+.sort .firedDish ul li:hover>span{transform: rotate(0deg);-moz-transform: rotate(0deg);-ms-transform: rotate(0deg);-webkit-transform: rotate(0deg);}
+.sort .firedDish ul li:hover>img{transform: scale(1.1);opacity: 0.2;}
+/***************.sort .soup*****************/
+.sort .soup ul{width: 100%;float: left;}
+.sort .soup ul li{width: 330px;height: 200px;position: relative;perspective: 800px;transition-property:3d;}
+.sort .soup ul li img{width: 100%;height: 100%;}
+.sort .soup ul li:nth-child(1),.sort .soup ul li:nth-child(2){width: 330px;height: 400px;}
+.sort .soup ul li:nth-child(3){width: 330px;height: 200px;}
+.sort .soup ul li:nth-child(4){width: 330px;height: 400px;float: right; margin-right: 24px;}
+.sort .soup ul li:nth-child(5){width: 670px;height: 200px;}
+.sort .soup ul li:nth-child(6),.sort .soup ul li:nth-child(7),.sort .soup ul li:nth-child(8){width: 330px;height: 200px;}
+.sort .soup ul li span{width: 100%;height: 100%;position: absolute;top: 0;left: 0;background:#fbf4df;display: block;border: 5px solid #d4c087;box-sizing: border-box;}
+.sort .soup ul li span{transform:rotateY(-90deg);opacity: 0;transform-origin:right center;}
+.sort .soup ul li span a{margin-top: 0;}
+.sort .soup ul li:hover span{opacity:1;transform:rotateY(0deg);transition:0.6s 0.3s;}
+.sort .soup ul li:hover img{transform:rotateY(90deg);transform-origin:left center;opacity: 0;transition:0.6s;}
+

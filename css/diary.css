@@ -1,0 +1,23 @@
+/*************articleCase****************/
+.main .title{width: 100%;height:100px;background: lightgoldenrodyellow;text-align: center;font: bold 30px/100px "微软雅黑"; color: #d7b657;}
+.main .articleCase{width:1340px;height: 1200px;margin:0 auto;background-attachment: fixed;position:relative;background-position: top center;font-size: 0;}
+.main .articleCase .show{width: 100%;position: absolute;bottom: 0px;background-image: url(../img/bg.png);padding-bottom: 20px;}
+.main .case1{background-image: url(../img/diary/bg1.jpg);}
+.main .case2{background-image: url(../img/diary/bg2.jpg);}
+.main .case3{background-image: url(../img/diary/bg3.jpg);}
+
+.main .articleCase .show .showContent{width: 1100px;background:#f7f1da;height: 100%;margin: 0 auto;}
+.main .articleCase .show .showContent h2{font:bold 24px "微软雅黑";text-align: center;padding: 10px;color: #555;}
+.main .articleCase .show .showContent .contentTop{width: 95%; margin: 0 auto;margin-top:20px;padding-bottom: 20px;}
+.main .articleCase .show .showContent .contentTop img{float: left;width: 300px;height: 200px;margin-right: 10px;}
+.main .articleCase .show .showContent .contentTop p{text-indent: 2em;font: 16px "微软雅黑";}
+
+
+.main .articleCase .show .showContent .contentbottom{width: 90%;height: 130px;margin: 0 auto;overflow: hidden;position: relative;}
+.main .articleCase .show .showContent .contentbottom ul{width: 300%;height: 100%;position: absolute;top: 0;left: 0;transition:3s;}
+.main .articleCase .show .showContent .contentbottom ul.quick{transition:none;}
+.main .articleCase .show .showContent .contentbottom ul li{width:4.2%;height: 100%;float: left;position: relative;}
+.main .articleCase .show .showContent .contentbottom ul li img{width: 99%;height: 100%;}
+.main .articleCase .show .showContent .contentbottom ul li span{width:100%;height:30px;position: absolute;bottom: -100%;left: 0;background:lightgoldenrodyellow;text-align: center;font: 14px "微软雅黑";
+transition:0.3s;-moz-transition:0.3s;-ms-transition: 0.3s;-webkit-transition:0.3s;}
+.main .articleCase .show .showContent .contentbottom ul li:hover>span{bottom: 0;}

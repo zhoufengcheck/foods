@@ -1,0 +1,97 @@
+/*******************main recommend********************/
+.main .recommend{width: 82%;overflow:hidden;margin: 0 auto;margin-top: 10px;background-color: #fefaf1;padding: 0 20px;box-sizing: border-box;box-shadow: 0 0 20px #ddd inset;}
+/*******************main recommend recommendToday********************/
+.main .recommend .recommendToday{width: 100%;height: 1150px;float:left;}
+.main .recommend .title{width: 100%;height: 130px;text-align: center;margin:10px 0;}
+.main .recommend .title img{width: 35%;height: 100%;}
+.main .recommend .recommendToday ul{width: 100%;}
+.main .recommend .recommendToday ul li{margin-bottom: 10px;float: left;}
+.main .recommend .recommendToday ul li.todayBig{width: 95%;height:300px;box-sizing: border-box;/*font-size: 0;*/margin-left: 2.5%;perspective:800px;}
+.main .recommend .recommendToday ul li.todayBig img{width: 50%;height: 300px;float: left;display: block;}
+.main .recommend .recommendToday ul li.todayBig .todayBigIntro{width: 50%;height: 300px;float: left;position: relative;transform-style: preserve-3d;}
+.main .recommend .recommendToday ul li.todayBig .todayBigIntro .todayBigIntroOne{width: 100%;height: 100%;position: absolute;top: 0;left: 0;background-color: #f9ebc7;padding:20px 25px;padding-bottom: 0;box-sizing: border-box;
+transform-origin: top left;
+transition:1s;z-index: 10;}
+.main .recommend .recommendToday ul li.todayBig .todayBigIntro .todayBigIntroOne img{width: 13%;height: 12%;margin-right: 1rem;}
+.main .recommend .recommendToday ul li.todayBig .todayBigIntro .todayBigIntroOne h1{font-size:2.2rem;font-weight: bold; color: #f5c64b;}
+.main .recommend .recommendToday ul li.todayBig .todayBigIntro .todayBigIntroOne h2{font-size:1.7rem;font-weight: bold;color: #f5c64b;}
+.main .recommend .recommendToday ul li.todayBig .todayBigIntro .todayBigIntroOne span{font-size:1rem;line-height:2rem;color: #fcb807;}
+.main .recommend .recommendToday ul li.todayBig .todayBigIntro .todayBigIntroOne p{display:block ;float: left;font-size:1.1rem;line-height:1.5rem;color: #333;text-indent: 1rem;}
+.main .recommend .recommendToday ul li.todayBig .todayBigIntro .todayBigIntroTwo{width: 100%;height: 100%;position: absolute;top:0;left: 0;background:#faedcf;padding:20px 25px;padding-bottom: 0;box-sizing: border-box;opacity:0;
+transition:3s;}
+.main .recommend .recommendToday ul li.todayBig .todayBigIntro .todayBigIntroTwo ul{width: 100%;height: 40%;}
+.main .recommend .recommendToday ul li.todayBig .todayBigIntro .todayBigIntroTwo ul li{width: 30%;height: 50%;float: left;border: 1px dotted #929394;margin: 0;font-size:1rem;line-height: 4rem;padding-left: 1rem;box-sizing: border-box;}
+.main .recommend .recommendToday ul li.todayBig .todayBigIntro .todayBigIntroTwo p{font-size:1rem;color: #555;}
+.main .recommend .recommendToday ul li.todayBig .todayBigIntro .todayBigIntroTwo h2{font-size:1.2rem;font-weight:bold;color: #555;padding: 1rem 0;}
+.main .recommend .recommendToday ul li.todayBig .todayBigIntro .todayBigIntroTwo span{display: inline-block;width: 21%;height: 12%;background-color:#f7f1e0;margin-right: 0.5rem;float: left;margin-bottom: 0.3rem;font-size:1rem;line-height:2.2rem;text-align: center;border: 1px solid #555;}
+.main .recommend .recommendToday ul li.todayBig .todayBigIntro:hover>.todayBigIntroOne{transform:rotateY(-180deg);opacity: 0;}
+.main .recommend .recommendToday ul li.todayBig .todayBigIntro:hover>.todayBigIntroTwo{opacity: 1;}
+
+
+.main .recommend .recommendToday ul li.todayLitter{width: 32.3%;height:400px;margin-right:1%;position: relative;overflow: hidden;}
+.main .recommend .recommendToday ul li.todayLitter img{width: 100%;height:200px; display: block;float: left;}
+.main .recommend .recommendToday ul li.todayLitter .todayLitterOne{width: 100%;height: 50%;position: absolute;bottom:0;left:0;background-color: #f9ebc7;padding: 10px 2%;box-sizing: border-box;}
+.main .recommend .recommendToday ul li.todayLitter .todayLitterOne img{width: 40px;height: 40px;margin-right: 1rem;}
+.main .recommend .recommendToday ul li.todayLitter .todayLitterOne h1{font-size:2.2rem;font-weight: bold; color: #f5c64b;}
+.main .recommend .recommendToday ul li.todayLitter .todayLitterOne h2{font-size:1.2rem;font-weight: bold;color: #f5c64b;}
+.main .recommend .recommendToday ul li.todayLitter .todayLitterOne span{font-size:1rem;line-height: 2rem;color: #fcb807;}
+.main .recommend .recommendToday ul li.todayLitter .todayLitterOne p{display:block ;float: left;font-size:0.9rem;line-height: 1.3rem "微软雅黑";color: #333;text-indent: 1rem;}
+.main .recommend .recommendToday ul li.todayLitter .todayLitterTwo{background:#faedcf;width: 100%;height:50%;position: absolute;bottom:-100%;left:0;padding: 1rem;box-sizing: border-box;
+transition:0.3s;}
+.main .recommend .recommendToday ul li.todayLitter .todayLitterTwo ul{width: 100%;height: 40%;}
+.main .recommend .recommendToday ul li.todayLitter .todayLitterTwo ul li{width: 30%;height: 50%;float: left;border: 1px dotted #929394;margin: 0;font: 0.5rem "微软雅黑";line-height: 3rem;padding-left: 1rem;box-sizing: border-box;}
+.main .recommend .recommendToday ul li.todayLitter .todayLitterTwo ul li.long{width: 37%;}
+.main .recommend .recommendToday ul li.todayLitter .todayLitterTwo p{font-size: 1rem;color: #555;}
+.main .recommend .recommendToday ul li.todayLitter .todayLitterTwo h2{font-size: 1.2rem;font-weight:bold;color: #555;padding: 0.5rem 0;}
+.main .recommend .recommendToday ul li.todayLitter .todayLitterTwo span{display: inline-block;width: 21%;height: 13%;background-color:#f7f1e0;margin-right: 0.5rem;float: left;margin-bottom: 0.3rem;font-size: 1rem;line-height: 1.5rem;text-align: center;border: 1px solid #555;}
+
+
+.main .recommend .recommendToday ul li.todayLitter:hover>.todayLitterTwo{bottom: 0;}
+/*******************main recommend recommendSep********************/
+.main .recommend .recommendSep{width: 100%;height:810px;float: left;margin-top: 20px;position: relative;overflow: hidden;}
+.main .recommend ul.list{float: left;display: block;cursor: pointer;}
+.main .recommend ul.list li{padding: 10px;float: left;margin-right:0.4rem;background-color: #ffd974;font:bold 1.1rem "微软雅黑";color: white;}
+.main .recommend ul.list li.checked{background: #d5b866;}
+.main .recommend .recommendSep .sepContent{width: 100%;position: absolute;left: 100%;bottom: 0;transition:0.3s}
+.main .recommend .recommendSep .active{display: block;left: 0;}
+.main .recommend .recommendSep .sepContent a{width: 32%;height: 300px;float: left;margin-right:0.4rem;margin-bottom: 0.4rem;display: block;position: relative;overflow: hidden;}
+.main .recommend .recommendSep .sepContent a img{width: 100%;height: 100%;}
+.main .recommend .recommendSep .sepContent a span{display:block;width: 100%; height: 70%;position: absolute;bottom:-100%;left:0;background-image:url(../img/bg.png);background-size:100% 100%;transition:0.3s;padding: 5%;text-align: center;border: 3px solid #fbd173; box-sizing: border-box;}
+.main .recommend .recommendSep .sepContent a span h1{font-size: 1.6rem;line-height: 2rem;color: #d7b657;}
+.main .recommend .recommendSep .sepContent a span h2{font-size: 1rem;line-height: 1.7rem;color: #bcae85;}
+.main .recommend .recommendSep .sepContent a span h2:hover{color: #5b470c;font-size: 1.1rem;}
+
+.main .recommend .recommendSep .sepContent a span p{font-size: 1rem;line-break: 1.5rem;color: #444;}
+.main .recommend .recommendSep .sepContent a:hover>span{bottom:0;left: 0;}
+.main .recommend .recommendSep .sepContent a:hover>img{opacity: 0.3;}
+/*******************main recommend recommendOld********************/
+.main .recommend .recommendOld{width: 100%;height:660px;float: left;margin-top:1.4rem;position: relative;overflow: hidden;}
+.main .recommend .recommendOld .OldContent{width: 100%;height: 65.5%;float: left;position: absolute;top:200px;left:100%;display: block;transition:0.3s;}
+.main .recommend .recommendOld .active{display: block;left: 0%;}
+.main .recommend .recommendOld .OldContent a{width: 33%;height: 48%;float: left;margin-bottom:1.1rem;float: left;margin-left: 0.6rem;position: relative;overflow: hidden;}
+.main .recommend .recommendOld .OldContent a:nth-child(1){width: 30%;height: 100%;float: left;margin: 0;}
+.main .recommend .recommendOld .OldContent a span{display:block;width: 100%; height: 70%;position: absolute;bottom:0;left:0;background-image:url(../img/bg.png);background-size:100% 100%;transition:0.3s;padding: 5%;text-align: center;border: 3px solid #fbd173; box-sizing: border-box;
+transform: rotate(-90deg);transform-origin: bottom left;opacity: 1;
+}
+.main .recommend .recommendOld .OldContent a span h1{font-size: 1.6rem;line-height: 2rem;font-weight:bold;color: #d7b657;}
+.main .recommend .recommendOld .OldContent a span h2{font-size: 1rem;line-height:1.7rem;font-weight:bold;color: #bcae85;}
+.main .recommend .recommendOld .OldContent a span h2:hover{color: #5b470c;font-size: 1.1rem;}
+
+.main .recommend .recommendOld .OldContent a span p{font: 1rem/1.3rem "微软雅黑";color: #444;}
+.main .recommend .recommendOld .OldContent a img{width: 100%;height: 100%;}
+.main .recommend .recommendOld .OldContent a:hover>span{transform: rotate(0deg);opacity: 1;}
+.main .recommend .recommendOld .OldContent a:hover>img{opacity: 0.3;}
+/*******************main recommend footer********************/
+.main .footer{width:100%;height: 210px;background: #f9de97;margin-top: 30px;}
+.main .footer .footerTop{width: 100%;margin: 0 auto;height: 160px;padding: 0 10%;border-bottom: 1px dotted #555;}
+.main .footer .footerTop img:first-child{float: left;margin-top: 20px;}
+.main .footer .footerTop ul{width: 30%;height:140px;float: left;margin-left: 70px;}
+.main .footer .footerTop ul li{width: 106px;height: 140px;text-align: center;float: left;margin-left: 20px;}
+.main .footer .footerTop ul li span{display: block;margin-top: 5px;text-align:center;width: 100%;float: left;font: 1rem "微软雅黑";}
+.main .footer .footerTop ul li img{width:100%;height: 76.4%;}
+.main .footer .footerTop .footerTopTxt{width: 300px;height: 90%;margin-top: 1.4rem;float: left;margin-left: 60px;}
+.main .footer .footerTop .footerTopTxt span{display: block;font:1.5rem/1.5rem "微软雅黑";color: #d7b657;}
+.main .footer .footerTop .footerTopTxt span:nth-child(3),.main .footer .footerTop .footerTopTxt span:nth-child(4),.main .footer .footerTop .footerTopTxt span:nth-child(5)
+{font: 16px "微软雅黑";color: #444;}
+
+.main .footer .footerBottom{width: 100%;height:50px;float: left;text-align: center;}

@@ -1,0 +1,134 @@
+@media only screen and (min-width: 768px) and (max-width: 1025px){
+	html{font-size: 8px;}
+	.main .nav{height: 150px;}
+	.main .nav ul li{margin-top:-80px;line-height: 200px;}
+	.main .nav ul:before,.main .nav ul:after{top: -120px;height: 200px;}
+	.main .banner{height: 400px;}
+	.main .banner .changeBanner{line-height: 400px;}	
+	.main .recommend .title{height: 80px;}
+	/*********.main .recommend .recommendToday*********/
+	.main .recommend .recommendSep{height: 750px;}
+	/*********.main .recommend .recommendOld .OldContent********/
+	.main .recommend .recommendOld{height: 480px;}
+	/*********.main .footer*********/
+	.main .footer{width:100%;height: 400px;}	
+	.main .footer .footerTop ul{width: 30%;margin-left: 1px;}
+	.main .footer .footerTop .footerTopTxt{height: 40px;width: 30%;margin-left: 10px;}
+	.main .footer .footerBottom{width: 100%;height:40px;}
+	.main .footer .footerTop ul li{width: 40px;height:50px;}
+	.main .footer{width:100%;height: 220px;}
+	.main .footer .footerBottom{width: 100%;height:30px;}
+}
+@media only screen and (min-width: 481px) and (max-width: 766px){
+	html{font-size: 4px;}
+	.main .logo{height:50px;}
+	.main .nav{height: 120px;}
+	.main .nav ul li{margin-top: -60px;line-height: 160px;}
+	.main .nav ul:before,.main .nav ul:after{top: -100px;height: 200px;}
+	.main .banner{height: 300px;}
+	.main .banner .changeBanner{line-height: 300px;}	
+	.main .recommend .title{height: 50px;}
+	/*********.main .recommend .recommendToday*********/
+	.main .recommend .recommendSep{height: 550px;}
+	.main .recommend .recommendSep .sepContent a{height: 200px;}
+	/*********.main .recommend .recommendOld .OldContent********/
+	.main .recommend .recommendOld{height: 430px;}
+	.main .recommend .recommendOld .OldContent a{margin-left: 0.3rem;}
+	.main .recommend .recommendOld .OldContent a span{bottom:-100%;left:0;transform: rotate(0deg);}
+	/*********.main .footer*********/
+	.main .footer{width:100%;height: 400px;}	
+	.main .footer .footerTop ul{width: 30%;margin-left: 1px;}
+	.main .footer .footerTop .footerTopTxt{height: 40px;width: 30%;margin-left: 10px;}
+	.main .footer .footerBottom{width: 100%;height:40px;}
+	.main .footer .footerTop ul li{width: 40px;height:50px;}
+	.main .footer{width:100%;height: 220px;}
+	.main .footer .footerBottom{width: 100%;height:30px;}
+}
+@media only screen and (min-width: 321px) and (max-width: 414px){/*小于480px时候的样式*/
+	html{font-size: 2px;}
+	/*********banner*********/
+	.main .logo #logo{margin-left:40%;width: 100px;margin-right: 3%;height: 50px;}
+	.main .logo input,.main .logo .code{margin-left: 5%;margin-top: 2rem;}
+	.main .logo span{margin-left: 0;margin-top: 2rem;}
+	.main .nav{height: 61px;}
+	.main .nav ul li{margin-top: -30px;line-height: 70px;}
+	.main .nav ul:before,.main .nav ul:after{top: -50px;height: 100px;}
+	.main .banner{height: 150px;}
+	.main .banner .changeBanner{line-height: 150px;}
+	
+	.main .recommend .title{height: 50px;}
+	/*********recommed*********/
+	.main .recommend{width: 100%;}
+	/*********.main .recommend .recommendToday*********/
+	.main .recommend .recommendToday{height: 2140px;}
+	.main .recommend .recommendToday ul li.todayBig{height: 400px;}
+	.main .recommend .recommendToday ul li.todayBig img{width: 100%;height: 50%;}
+	.main .recommend .recommendToday ul li.todayBig .todayBigIntro{width: 100%;height: 50%;}
+	.main .recommend .recommendToday ul li.todayLitter{width: 100%;}
+	.main .recommend .recommendToday ul li.todayLitter img{width: 100%;}
+	.main .recommend .recommendToday ul li.todayLitter div{width: 100%;height:200px;}
+	/*********.main .recommend .recommendSep*********/
+	.main .recommend .recommendSep{height: 340px;}
+	.main .recommend .recommendSep .sepContent{top: 120px;}
+	.main .recommend .recommendSep .sepContent a{height: 100px;width: 31%;}
+	
+	/*********.main .recommend .recommendOld*********/
+	.main .recommend .recommendOld{height: 330px;}
+	.main .recommend .recommendOld .OldContent{top: 120px;}
+	.main .recommend .recommendOld .OldContent a{width: 32%;}
+	.main .recommend .recommendOld .OldContent a span{bottom:-100%;left:0;transform: rotate(0deg);}
+	.main .recommend .recommendOld .OldContent a:nth-child(1){width: 30%;}
+	/*********.main .footer*********/
+	.main .footer{width:100%;height: 400px;}
+	.main .footer .footerTop{width: 100%;height: 360px;}
+	.main .footer .footerTop ul{width: 100%;margin-left: 5px;}
+	.main .footer .footerTop .footerTopTxt{height: 40px;margin-left: 5px;margin-top: 2px;}
+	.main .footer .footerBottom{width: 100%;height:40px;}
+	.main .footer .footerTop ul li{width: 50px;height:70px;}
+}
+@media only screen and (max-width: 320px){
+	html{font-size:1px;}
+	/*********banner*********/
+	.main .logo #logo{margin-left:40%;width: 100px;margin-right: 3%;height: 50px;}
+	.main .logo input,.main .logo .code{margin-left: 2%;margin-top: 2rem;}
+	.main .logo span{margin-left: 0;margin-top: 2rem;}
+	.main .nav{height: 61px;}
+	.main .nav ul{width: 80%;}
+	.main .nav ul li{margin-top: -30px;font:1px/70px "微软雅黑";}
+	.main .nav ul:before,.main .nav ul:after{top: -50px;height: 100px;width: 50px;}
+	.main .nav ul:before{left:-20%}
+	.main .nav ul:after{right:-20%;}
+	.main .banner{height: 150px;}
+	.main .banner .changeBanner{line-height: 150px;}
+	
+	.main .recommend .title{height: 50px;}
+	/*********recommed*********/
+	.main .recommend{width: 100%;}
+	/*********.main .recommend .recommendToday*********/
+	.main .recommend .recommendToday{height: 2140px;}
+	.main .recommend .recommendToday ul li.todayBig{height: 400px;width: 100%;}
+	.main .recommend .recommendToday ul li.todayBig img{width: 100%;height: 50%;}
+	.main .recommend .recommendToday ul li.todayBig .todayBigIntro{width: 100%;height: 50%;}
+	.main .recommend .recommendToday ul li.todayLitter{width: 100%;}
+	.main .recommend .recommendToday ul li.todayLitter img{width: 100%;}
+	.main .recommend .recommendToday ul li.todayLitter div{width: 100%;height:200px;}
+	/*********.main .recommend .recommendSep*********/
+	.main .recommend .recommendSep{height: 340px;}
+	.main .recommend .recommendSep .sepContent{top: 120px;}
+	.main .recommend .recommendSep .sepContent a{height: 100px;width: 31%;}
+	
+	/*********.main .recommend .recommendOld*********/
+	.main .recommend .recommendOld{height: 330px;}
+	.main .recommend .recommendOld .OldContent{top: 120px;}
+	.main .recommend .recommendOld .OldContent a{width: 32%;}
+	.main .recommend .recommendOld .OldContent a span{bottom:-100%;left:0;transform: rotate(0deg);}
+	.main .recommend .recommendOld .OldContent a:nth-child(1){width: 30%;}
+	.main .recommend .recommendOld .OldContent a span p{font-size:1px;}
+	/*********.main .footer*********/
+	.main .footer{width:100%;height: 400px;}
+	.main .footer .footerTop{width: 100%;height: 360px;}
+	.main .footer .footerTop ul{width: 100%;margin-left: 5px;}
+	.main .footer .footerTop .footerTopTxt{height: 40px;margin-left: 5px;margin-top: 2px;}
+	.main .footer .footerBottom{width: 100%;height:40px;}
+	.main .footer .footerTop ul li{width: 50px;height:70px;}
+}

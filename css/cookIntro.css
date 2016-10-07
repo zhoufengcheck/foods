@@ -1,0 +1,68 @@
+.cookTeach{width: 1100px;margin:0 auto;background-color: #fefaf1;overflow: hidden;margin-top: 20px;box-shadow: 0 0 20px #ddd inset;}
+/****************.cookTeach .cookIntro*************/
+.cookTeach .cookIntro{width: 95%;margin:0 auto;overflow: hidden;padding-top: 10px;}
+.cookTeach .cookIntro img{width: 327px;height: 400px;float: left;}
+.cookTeach .cookIntro .cookdetail{width: 700px;height: 400px;float: right;background:white;}
+.cookTeach .cookIntro .cookdetail .cookName{width:680px;height:60px;padding-left: 20px;float: left;background:#fefdc4;}
+.cookTeach .cookIntro .cookdetail .cookName h1{font: bold 24px/60px "微软雅黑";float: left;color: #444;}
+.cookTeach .cookIntro .cookdetail .cookName span{display: block;width: 80px;padding:10px 5px;background: #dfce90;float: left;margin-left: 100px;margin-top:10px;text-align: center;border-radius: 5px;font-size:20px;color: #333;}
+.cookTeach .cookIntro .cookdetail .cookName span:hover{color:red}
+.cookTeach .cookIntro .cookdetail .cookName span a{color: #333;font: 14px "微软雅黑";float: left;}
+.cookTeach .cookIntro .cookdetail ul.cookEffect{width: 100%;height: 40px;float: left;margin-top: 10px;}
+.cookTeach .cookIntro .cookdetail ul.cookEffect li{float:left;padding: 10px;margin-right: 10px;font-size:14px;background-color:#dfce90;color:#555;}
+
+.cookTeach .cookIntro .cookdetail ul.cookInfo{width: 100%;height: 160px;float: left;margin-top: 10px;}
+.cookTeach .cookIntro .cookdetail ul.cookInfo li{width: 40%;height: 80px;padding-left:20px;padding-top:10px;box-sizing: border-box;float: left;border: 1px dotted #ccc;}
+.cookTeach .cookIntro .cookdetail ul.cookInfo li:nth-child(1),.cookTeach .cookIntro .cookdetail ul.cookInfo li:nth-child(4){width: 20%;}
+.cookTeach .cookIntro .cookdetail ul.cookInfo li strong{display: block;width: 100%;}
+.cookTeach .cookIntro .cookdetail ul.cookInfo li span{display: block;width: 100%;font: 30px "微软雅黑"; color: #dfce90;}
+
+.cookTeach .cookIntro .cookdetail p{font: 14px/20px "微软雅黑";margin-top: 20px;float: left;padding: 10px;color: #555;}
+/****************.cookNeed*************/
+.cookTeach .cookLeft{width: 610px;background-color:#f8f2dd;float: left;margin-left: 2.5%;margin-top: 20px;}
+.cookTeach .cookLeft h1{font: bold 22px "微软雅黑";margin: 15px;}
+.cookTeach .cookNeed{height: 320px;}
+.cookTeach .cookNeed dl{width: 100%;float: left;margin-bottom: 10px;}
+.cookTeach .cookNeed dl dt{width:100px;height: 50px;float: left;}
+.cookTeach .cookNeed dl dt span{font: 16px/50px "微软雅黑";display: block;width:60px;height:50px;background:#dfce90;text-align: center;margin-left: 10px;}
+.cookTeach .cookNeed dl dd{width: 240px;height: 50px;float: left;background-color: white;margin-right: 10px;margin-bottom: 10px;line-height: 50px;padding: 0 10px;box-sizing: border-box;}
+.cookTeach .cookNeed dl dd strong{font:14px "微软雅黑"}
+.cookTeach .cookNeed dl dd span{float: right;font:12px/50px "微软雅黑"}
+.cookTeach .cookNeed dl:nth-child(3) dt{height: 150px;}
+
+/************************cookSteps***********/
+.cookTeach .cookSteps{overflow: hidden;}
+.cookTeach .cookSteps ul{width: 100%;height: 100%;float: left;}
+.cookTeach .cookSteps ul li{width: 100%;height: 180px;float: left;margin-bottom: 10px;}
+.cookTeach .cookSteps ul li img{width: 250px;height: 100%;float: left;margin-left: 10px;}
+.cookTeach .cookSteps ul li .step{width:330px;height:100%;float: left;margin-left: 10px;background: white;}
+.cookTeach .cookSteps ul li .step h2{font: 20px "微软雅黑";margin-left: 10px;}
+.cookTeach .cookSteps ul li .step p{font: 16px "微软雅黑";margin-left: 10px;}
+
+/****************cookAtten**************/
+.cookTeach .cookRight{width: 415px;float: right;background-color:#f8f2dd;margin-top: 20px;margin-right: 2.5%}
+.cookTeach .cookRight h1{font: bold 20px "微软雅黑";margin: 15px;}
+
+.cookTeach .cookAtten{height: 320px;position: relative;overflow: hidden;}
+.cookTeach .cookAtten ul{width: 100%;float: left;margin-left:10px;}
+.cookTeach .cookAtten ul li{padding: 10px;float: left;margin-right: 10px;background-color: #fefaf1;cursor: pointer;border-top-right-radius: 5px;border-top-left-radius: 5px;}
+.cookTeach .cookAtten ul li.checked{background: #F5C64B;}
+.cookTeach .cookAtten .AttenContent{float: left;margin-left: 10px;width: 380px;height: 200px;background-color: #fdfdee;padding: 10px;box-sizing: border-box;position: absolute;left: 0;top: 90px;transition:0.3s}
+.cookTeach .cookAtten .AttenContent img{float: left;margin-right: 10px;margin-bottom: 10px;width: 120px;height: 100px;}
+.cookTeach .cookAtten .right{left: 100%;}
+/****************.related**************/
+.cookTeach .related .relatedOuter{width: 100%;height: 308px;float: left;padding: 10px;box-sizing: border-box;position: relative;overflow: hidden;}
+.cookTeach .related .relatedInner{width: 100%;height: 1200px;position: absolute;top: 0;left: 10px;transition: 0.3s;}
+.cookTeach .related .relatedInner img{width:190px;height: 150px;}
+.cookTeach .related .quick{transition:0s}
+.cookTeach .related #next{float: right;margin: 10px;margin-right: 20px;cursor: pointer;}
+.cookTeach .related #next:hover{color: red;}
+/**************recommend**************/
+.cookTeach .recommend .recommendFirst{width: 390px;float: left;margin-left: 10px;margin-bottom:5px;height: 100px;background-color:#fdfdee;}
+.cookTeach .recommend .recommendFirst img{padding: 10px;height: 80px;width: 100px;float: left;}
+.cookTeach .recommend .recommendFirst p{padding: 10px;}
+.cookTeach .recommend ul{width: 100%;float: left;margin-left:10px;}
+.cookTeach .recommend ul li{width: 42%;padding:10px 10px;float: left;background-color: #f2f2f2;margin-bottom: 5px;margin-right: 5px;position: relative;overflow: hidden;}
+.cookTeach .recommend ul li span{width: 90%;height: 100%;display:block;background: #fefaf1;position: absolute;top: 100%;left:0;padding-left:10%;opacity: 1;text-align: center;font: 14px/40px "微软雅黑";
+transition:0.3s;-moz-transition:0.3s;-ms-transition: 0.3s;-webkit-transition:0.3s;}
+.cookTeach .recommend ul li:hover>span{top: 0;}fdfdee

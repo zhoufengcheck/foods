@@ -1,0 +1,59 @@
+.main .logo{width:100%;height:160px;background-color: #fdf2dd;position: relative; z-index: 100;}
+.main .logo #logo{width:20%;height:79%;margin-top: 2rem;float: left;margin-left: 15%;}
+.main .logo input{width: 30%;height:3rem;float: left;margin-top: 5rem;border-radius: 0.5rem;border: 3px solid #d7b657;}
+.main .logo span{display: block;width:4rem;height: 3rem;background:#d7b657;float: left;border-radius: 0.5rem;text-align: center;font-size:1rem;line-height:3rem;margin-top: 5rem;cursor: pointer;}
+.main .logo .code{width: 12rem;height: 5rem;float: left;margin-top: 3.4rem;margin-left: 3rem;}
+.main .logo .code img{width: 40%;height:100%;float: left;}
+.main .logo .code h4{font-size:1.4rem;font-weight:bold;float: left;margin-top: 0.5rem;color: #d7b657;}
+
+
+.main .nav{width: 100%;height: 80px;background-color: #fff4bd;}
+.main .nav ul{width:80%;height: 100%;margin: 0 auto;background-color: #fff4bd;}
+.main .nav ul li{width: 19.4%;height: 100%;float:left;font-size:24px;font-weight:bold;line-height:80px;text-align: center;color: #ffd974;cursor: pointer;border-radius: 0;background: #fbeb9c;margin-left: 5px;}
+.main .nav ul li a{color: #ffd974;}
+.main .nav ul:before,.main .nav ul:after{width: 0;height: 0;}
+.main .nav ul li:hover>a{color: #d7b657;}
+.main .nav ul li:hover{background: #fbeb9c;font-size: 1.9rem;}
+
+/****************************/
+.main .message{width: 1200px;margin:0 auto;background-color: #fefaf1;padding: 0 20px;box-sizing: border-box;margin-top: 10px;box-shadow: 0 0 20px #ddd inset;overflow: hidden;}
+.main .message .messageShow{width: 63%;float: left;}
+.main .message .messageShow h2{font-size:20px;color: #555;text-align: center;padding: 20px;color: #555;}
+.main .message .messageShow img{width:60%;height:300px;float: left;margin-right: 20px;}
+.main .message .messageShow p{font-size: 16px;text-indent: 2em;color: #444;}
+.main .message .messageShow .link{width: 100%;margin-top: 30px;}
+.main .message .messageShow a{display: block;padding: 10px 0;text-decoration: underline;}
+.main .message .messageShow a:hover{color: red;}
+/****************************/
+.main .message .messageright{width: 33%;float: right;margin-top: 10px;}
+.main .message .messageright .right{width: 100%;float: left;background: white;margin-bottom: 10px;}
+.main .message .messageright .right h1{font-size: 20px;font-weight: bold;padding: 10px 0;}
+.main .message .messageright .related{height: 400px;}
+.main .message .messageright .related .relatedInner{width: 100%;float: left;}
+.main .message .messageright .related .relatedInner img{width:190px;height: 150px;float: left;}
+.main .message .messageright .related span{float: right;display: block;text-align: right;padding: 10px;cursor: pointer;}
+.main .message .messageright .related span:hover{color: red;}
+/****************************/
+.main .message .messageright .recommend .recommendFirst{width: 100%;float: left;background: lavender;margin: 0 auto;margin-bottom: 10px;}
+.main .message .messageright .recommend .recommendFirst img{padding: 10px;height: 80px;width: 100px;float: left;}
+.main .message .messageright .recommend .recommendFirst p{padding: 10px;}
+
+.main .message .messageright .recommend ul{width: 100%;float: left;margin-left:10px;}
+.main .message .messageright .recommend ul li{width: 42%;padding:10px 10px;float: left;background-color: #EEEEEE;margin-bottom: 5px;margin-right: 5px;position: relative;overflow: hidden;}
+.main .message .messageright .recommend ul li span{width: 90%;height: 100%;display:block;background: #fefaf1;position: absolute;top: 100%;left:0;padding-left:10%;opacity: 1;text-align: center;font: 14px/40px "微软雅黑";transition:0.3s;}
+.main .message .messageright .recommend ul li:hover>span{top: 0;}
+
+
+
+/*******************main recommend footer********************/
+.main .footer{width:100%;height: 240px;background: #f9de97;margin-top: 30px;clear: both;}
+.main .footer .footerTop{width: 80%;margin: 0 auto;height: 160px;padding: 0 10%;border-bottom: 1px dotted #444;padding-bottom: 1rem;margin-bottom: 1rem;}
+.main .footer .footerTop img:first-child{float: left;margin-top: 20px;}
+.main .footer .footerTop ul{width: 40%;height:140px;float: left;margin-left: 20px;}
+.main .footer .footerTop ul li{width: 106px;height: 140px;text-align: center;float: left;margin-left: 20px;}
+.main .footer .footerTop ul li span{display: block;margin-top: 5px;text-align:center;width: 100%;float: left;}
+.main .footer .footerTop .footerTopTxt{width: 30%;height: 90%;margin-top: 20px;float: left;}
+.main .footer .footerTop .footerTopTxt span{display: block;font:1.5rem/2rem "微软雅黑";color: #d7b657;}
+.main .footer .footerTop .footerTopTxt span:nth-child(3),.main .footer .footerTop .footerTopTxt span:nth-child(4)
+{font: 20px "微软雅黑";color:black;}
+.main .footer .footerBottom{width: 100%;height:50px;float: left;text-align: center;}

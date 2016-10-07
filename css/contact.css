@@ -1,0 +1,93 @@
+/********popbox***********/
+.main #popBox{width: 100%;height:700px;position: fixed;background: rgba(0,0,0,0.5);top: 0;left: 0;z-index:-1;}
+.main #popBox .inner{width: 100%;height: 100%;float: left;}
+.main #popBox .inner .message{width: 400px;height:300px;position: absolute;top: 100px;left: 0;right:0;bottom:0;margin: auto;background: white;border-radius: 10px;box-shadow: 0 0 5px inset;padding: 20px;position: relative;word-wrap: break-word;}
+.main #popBox .inner .message h1{text-align: center;padding-bottom: 20px;font:bold 20px "微软雅黑";color: #333;}
+.main #popBox .inner .message h2{display: inline-block;font: 18px "微软雅黑";color: #444;}
+.main #popBox .inner .message span,.main #popBox .inner .message p{font: 16px "微软雅黑";}
+.main #popBox .inner .message span,.main #popBox .inner .message p{text-indent: 2em;}
+.main #popBox .inner .message a{display: block;width: 70px;height: 40px;position: absolute;bottom: 10px;background:lightgoldenrodyellow;border-radius: 5px;text-align: center;font: 16px/40px "微软雅黑";color: #555;box-shadow:0 0 2px inset;}
+.main #popBox .inner .message a#yes{left: 20%;}
+.main #popBox .inner .message a#no{right: 20%;}
+.contact{width: 1100px;margin: 0 auto;margin-top: 10px;background-color: #fefaf1;overflow: hidden;box-shadow: 0 0 20px #ddd inset;}
+/**********.contact .contactNav*********/
+.contact .contactNav{width: 200px; float: left;}
+.contact .contactNav ul{width:100%;float: left;margin-left: 30px;margin-top: 10px;}
+.contact .contactNav ul li{width: 100%;float: left;padding: 20px 0;text-align: center;background-color: white;border: 1px solid #aaa;border-bottom: none;font: 16px "微软雅黑";color: #555;cursor: pointer;}
+.contact .contactNav ul li h1{font: bold 20px "微软雅黑";color: #333;}
+.contact .contactNav ul li img{width: 80%;height: 80px;}
+.contact .contactNav ul li span{display: block;width: 60px;height: 30px;background-color: #FCB807;float: left;margin-left: 33%;margin-top:10px;font: 16px/30px "微软雅黑";}
+.contact .contactNav ul li:last-child{border-bottom:1px solid #aaa;}
+.contact .contactNav ul li.checked{background: #fdd86d;}
+/*.contact .contactNav ul li:hover{background-color: lightgoldenrodyellow;}*/
+/**********.contact .foodRecom*********/
+.contact .foodRecom{width: 820px;height: 220px;float: left;margin-left: 50px;margin-top: 10px;position: relative;}
+
+.contact .foodRecom .foodRecomTitle{width: 220px;height: 250px;float: left;position: absolute;left: 0;bottom: 0}
+.contact .foodRecom .foodRecomTitle img{width: 100%;height: 250px;}
+.contact .foodRecom .foodRecomTitle span{width: 100%;height: 50px;position: absolute;bottom:3px;left:0;display: block;color: white;font-weight: bolder;font-size: 20px;text-align: center;;background-color: #fdd86d;line-height: 50px;
+animation-name:spanani;
+animation-duration:2s;
+animation-timing-function:ease;
+animation-iteration-count:infinite;
+animation-fill-mode: forwards;
+}
+@keyframes spanani
+{
+from {bottom:0px;}
+50%{bottom:30px;}
+to {bottom:0;}
+}
+.contact .foodRecom .foodRecomShow{width: 540px;height: 180px;float: right;font-size: 0;margin-top: 35px;overflow: hidden;position: relative;}
+.contact .foodRecom .foodRecomShow .pic{position: absolute;left: 0px;top: 0;width:3000px;height: 180px;}
+.contact .foodRecom .foodRecomShow .pic a{width: 178px;height: 178px;float: left;margin-right: 2px;position: relative;}
+.contact .foodRecom .foodRecomShow .pic a img{width: 100%;height: 100%;}
+.contact .foodRecom .foodRecomShow .pic a span{position: absolute;bottom: -100%;left: 0;display: block;width: 100%;height: 40px;font:12px/40px "微软雅黑";color: black;text-align: center;background: #f2cf69;transition:0.3s;}
+.contact .foodRecom .foodRecomShow .pic a:hover>span{bottom: 0;}
+.contact .foodRecom .foodRecomShow .slow{transition:3s;}
+
+/**********.contact .content*********/
+.contact .content{width: 820px;float: left;margin-left: 50px;margin-top: 10px;border: 1px solid #aaa;padding-bottom: 20px;}
+.contact .submit{width: 100px;height: 40px;border-radius: 5px;background-color: #d4c087;cursor: pointer;}
+.contact h2{font: bold 24px "微软雅黑";padding:10px 5%;}
+.contact form{width: 90%;overflow: hidden;border:1px solid #ddd;margin:0 auto;padding: 10px;}
+.contact form input[placeholder],.contact .contactUs form textarea[placeholder]{padding-left: 10px;font-size: 14px;color: #929394;}
+.contact form ul li div span{font-size: 16px;color: #555555;}
+.contact form input,.contact form textarea{border: 1px solid #d4c087;}
+/**********.contact .contactUs*********/
+
+.contact .contactUs ul{width: 100%;margin:0 auto;}
+.contact .contactUs ul li{width: 47%;float: left;overflow: hidden;}
+.contact .contactUs ul li div{width: 90%;float: left;margin-bottom: 20px;padding-left: 10%}
+.contact .contactUs ul li:nth-child(1) div input{width: 200px;height: 40px;margin-left: 10px;}
+.contact .contactUs ul li:nth-child(2) div span{float: left;display: block;margin-right: 10px;}
+.contact .contactUs ul li:nth-child(2) div textarea{width: 240px;height: 200px;float: left;}
+.contact .contactUs ul li:nth-child(2) div input{float: left;margin-left: 100px;}
+.contact .contactUs ul li:nth-child(2) div input[value]{font-size: 20px;}
+/**********.contact .question*********/
+.contact .question {height: 280px;display: none;}
+.contact .question textarea{width:700px;height: 100px;margin: 10px;}
+/************.contact .commonQuestion************/
+.contact .commonQuestion{height: 500px;display: none;}
+.contact .commonQuestion ul{width: 95%;float: left;padding-left: 5%;perspective:4000px;margin-top: 10px;}
+.contact .commonQuestion ul li{width: 300px;height: 200px;float: left;margin-right: 5%;margin-bottom: 40px;position: relative;transform-style: preserve-3d;-ms-transform-style: preserve-3d;transition:0.6s;cursor: pointer;}
+.contact .commonQuestion ul li img{width: 300px;height: 200px;position: absolute;top:0;transform:translateZ(100px);-ms-transform:translateZ(100px);transition:0.6s;-ms-transition:0.6s;border-radius: 10px;}
+.contact .commonQuestion ul li span{width: 300px;height: 200px;position: absolute;top:0;display: block;
+transform:rotateX(-90deg) translateZ(100px);transition:0.6s;border-radius: 10px;background-image: url(../img/banner1.jpg);opacity: 0;}
+.contact .commonQuestion ul li span dl{width: 80%;height: 80%;padding:10%;float: left;}
+.contact .commonQuestion ul li span dl dt{width: 100%;font-size: 20px;color: #222;float: left;}
+.contact .commonQuestion ul li span dl dd{width: 100%;font-size: 12px;color: #444;float: left;display: block;height: 20px;}
+.contact .commonQuestion ul li:hover{transform:rotateX(90deg)}
+.contact .commonQuestion ul li:hover>img{opacity: 0}
+.contact .commonQuestion ul li:hover>span{opacity: 1}
+.contact .commonQuestion ul li span dl dd:hover{font-size: 14px;}
+
+/************.contact .recommend************/
+.contact .recommend{height: 350px;display: none;}
+.contact .recommend ul{width: 100%;float: left;}
+.contact .recommend ul li{width: 100%;float: left;}
+.contact .recommend ul li div{width: 30%;float: left;margin-bottom: 10px;}
+.contact .recommend ul li input{width: 130px;height: 30px;}
+.contact .recommend ul li:nth-child(2) div span{float: left;display: block;margin-right: 10px;}
+.contact .recommend ul li textarea{width: 650px;height: 150px;margin-left: 10px;}
+.contact .recommend ul li .submit{width: 100px;height: 40px;}

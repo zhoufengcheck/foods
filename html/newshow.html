@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="keywords" content="美食，博客，煮饭，日记，厨娘，好吃的"/>
+		<meta name="description" content="厨娘日记、、、"/>
+		<title>展示消息</title>
+		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/newshow.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/font-awesome.css"/>	
+		<!--[if IE 8]> 
+			<link rel="stylesheet" type="text/css" href="../css/ie/newshowie8.css"> 
+		<![endif]-->
+		<script src="../js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			function picChange(){
+				var $imgs=$(".relatedInner").children();
+				var $next=$("#next");				
+				$next.click(function(){
+					$imgs.each(function(i,v){
+						var r=/(\w{8})(\.jpg)$/;
+						r.test($(v).attr('src'));
+						var alt=RegExp['$1'];
+						var src=$(v).attr('src').replace(/(\w{8})(\.jpg)$/,$(v).attr('alt')+'$2');
+						$(v).attr('src',src);
+						$(v).attr('alt',alt);
+					});
+				});
+			}
+			$(function(){
+				picChange();
+			});
+		</script>
+	</head>
+	<body>
+		<div class="main">
+			<div class="logo">
+				<img id="logo" src="../img/logo.png"/>
+				<input type="text" name="" id="" value="" placeholder="请输入菜名"/>
+				<span>搜索</span>
+				<div class="code">
+					<img src="../img/foot04.png"/>
+					<h4>更多美食<br>更多精彩</h4>
+				</div>
+			</div>
+			<div class="nav">
+				<ul>
+					<li><a href="index.html">厨娘首页</a></li>
+					<li><a href="allFood.html">全部菜品</a></li>
+					<li><a href="news.html">今日热点</a></li>
+					<li><a href="diary.html">厨娘日记</a></li>
+					<li><a href="contact.html">联系我们</a></li>				
+				</ul>
+			</div>
+			<div class="message">
+				<div class="messageShow">
+					<h2>标题：秋季食疗防脱发</h2>
+					<img src="../img/news/newshow.jpg"/>
+					<p>秋季掉发严重并非就是脱发病，专家表示，头发生长、脱落与季节有关。在秋
+						冬季，随着气温下降，头发生长变慢，而且由于气候干燥多风，易起静电，
+						容易加速头发水分的挥发，打破头发的毛鳞片，导致发质结构遭到破坏，
+						头发就会变得干燥、失去光泽、易打结，出现分岔甚至掉发。梳理或清洁头发时掉发更多
+						，这是已经处于休止期尚未脱落的头发，由于梳理及清洁的牵拉促其脱落，不是病理性脱发。
+						如果超过3个月连续每天都脱发上百根，就要高度警惕。发现自己头顶部的头发逐渐变稀
+						、变软、变少或者出现发际线后移的征兆，最好能及时就医，了解是否属于病理性脱发。
+					</p>
+					<p>秋季掉发 可常吃三样食品</p>					　　
+				　       <p>木瓜：木瓜含有丰富的维生素C，同时，其铁元素、胡萝卜素
+					、叶黄素等都可为头发提供多种营养，去除老废的蛋白质堆积，
+					为头发提供深层洁净和滋养。</p>
+				       　<p>猪腿肉：猪腿肉含有维生素B1、维生素B2、
+				       	维生素B6等多种维生素，其中维生素B6有预防白发和促进头
+				       	发生长的作用，能防止头发掉落。</p>
+				       　<p>坚果：坚果，例如核桃、杏仁，能够提供优质的蛋白质，
+				       	促进头发生长，同时亦含有丰富的铁、维生素E等成分，
+				       	使头发强韧不易断。</p>
+					<p>秋季掉发 吃2款食疗方</p>
+					<p>首乌猪脑汤：首乌猪脑汤是上乘之选!何首乌300克，核桃仁30克,
+						猪脑1个。将何首乌水煎，弃渣去汁，用汁炖核桃仁与猪脑，
+						熟后调味服食，每天1次，直至长出新发。特别提出的是这不仅仅
+						是治疗女性掉头发的食疗药物，同时还是一道美味佳肴!
+					</p>
+					<p>
+					龙眼人参炖瘦肉：龙眼肉20克，人参6克，
+					枸杞子15克，瘦猪肉150克。猪肉冼净切块，龙眼肉、
+					枸杞子洗净，人参浸润后切薄片，放入炖盅内，加水适量，
+					以文火隔水炖至肉熟，
+					即可食用，适于妇女产后气血亏虚而引起脱发者食用。
+					</p>
+					<div class="link">
+						<a href="newshow.html">
+							上一篇：葡萄籽真的有避孕效果吗葡萄籽真的有避孕
+						</a>
+						<a href="newshow.html">
+							下一篇：中秋月饼中秋月饼中秋月饼中秋月饼
+						</a>
+					</div>
+				</div>
+				<div class="messageright">
+					<div class="related right">
+						<h1>相关推荐</h1>
+						<div class="relatedInner">
+							<img src="../img/cookInfo/related1.jpg"/ alt="related5">
+							<img src="../img/cookInfo/related2.jpg"/ alt="related6">
+							<img src="../img/cookInfo/related3.jpg"/ alt="related7">
+							<img src="../img/cookInfo/related4.jpg"/ alt="related8">
+						</div>										
+						<span id="next">换一批看看</span>
+					</div>
+					<div class="recommend right">
+						<h1>人气美食推荐</h1>	
+						<div class='recommendFirst'>
+							<img src="../img/banner1.jpg"/>
+							<p>天津狗不理包子，肉馅特别多，包子皮特特别软，里面还有很多汤汁
+							，吃上一口，香软可口，特别好吃，吃了一口还想再吃一口</p>
+						</div>
+						<ul>
+							<li>
+								豆芽黄瓜汤<span>口味：清淡</span>
+							</li>
+							<li>
+								西红柿鸡蛋汤<span>口味：清淡</span>
+							</li>
+							<li>糖醋排骨<span>口味：清淡</span></li>
+							<li>红烧小龙虾<span>口味：清淡</span></li>
+							<li>韩国炒年糕<span>口味：清淡</span></li>
+							<li>辣椒炒肉<span>口味：清淡</span></li>
+							<li>四川担担面<span>口味：清淡</span></li>
+							<li>拔丝香蕉<span>口味：清淡</span></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer">
+				<div class="footerTop">
+					<img src="../img/logo.png"/>
+					<ul>
+						<li>
+							<img src="../img/foot04.png"/>
+							<span>微博关注我们</span>
+						</li>
+						<li>
+							<img src="../img/foot02.png"/>
+							<span>微博关注我们</span>
+						</li>
+						<li>
+							<img src="../img/foot01.png"/>
+							<span>微博关注我们</span>
+						</li>
+					</ul>
+					<div class="footerTopTxt">
+						<span>
+							厨娘日记
+						</span>
+						<span>
+							just for life
+						</span>
+						<span>
+							我收空间的开发大房间
+						</span>
+						<span>
+							我收空间的开发大房间觉得房价肯定记得发动机
+						</span>
+					</div>
+				</div>
+				<div class="footerBottom">
+					<p>
+						厨娘日记，你身边的美食家，只为品质生活
+					</p>
+					<p>
+						CopyRight © 2004-2016zhoufeng.Com, All Rights Reserved.
+					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+
